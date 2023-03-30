@@ -11,65 +11,105 @@
   </head>
   <body>
     <header>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul> 
-    </nav>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <div class="logo">
-      <img src="assets/img/Keenan Profile Pic.jpeg" alt="My Picture">
+      <img src="assets/img/Keenan Profile Pic.jpeg" alt="My Picture" class="img-fluid">
     </div>
-    <main>
+    <main class="container my-5">
       <section>
         <h2>About Me</h2>
         <p>I am a student in Software engineering. I am a hard-working individual, who enjoys learning and growing my skill sets.</p>
-          <h3>Skills and Competencies</h3>
-            <h4>Python</h4>
-            <h4>HTML</h4>
-            <h4>CSS</h4>
-            <h4>SQL</h4>
-            <h4>Django</h4>
-      <section>
-          <h3>Work Experience</h3>
-            <h4>Compliance Manager</h4>
-              <h5>Investment Fund Africa</h5>
-            <h4>Operating Officer</h4>
-              <h5>Nedebe Group</h5>
-            <h4>Manager</h4>
-              <h5>Intshona FMCG</h5>
-            <h4>Junior Manager</h4>
-              <h5>Spur San Francisco</h5>
-            <h4>Manager</h4>
-              <h5>Paarl Action Sports</h5>
-            <h4>Audit Clerk</h4>
-              <h5>Privatactus Inc</h5>
-        <section>
-          <h3>Education</h3>
-            <h4>Tertiary</h4>
-              <h4>HyperionDev</h4>
-                <h5>Software Engineer bootcamp</h5>
-                <h5>Data Base Skills</h5>
-              <h4>University of Michigan</h4>
-                <h5>Python Specialization</h5>
-                <h5>Django Specialization</h5>
-              <h4>IBD - London</h4>
-                <h5>Foundations of Distilling</h5>
-                <h5>General Certificate in Distilling</h5>
-            <h4>Secondary</h4>
-              <h4>Somerset West Private School</h4>
-      </section>
-    </main>
-    <footer>
-      <div class="contact">
-        <h4>Contact Me</h4>
-        <p>Email: keenandup87@gmail.com</p>
-        <p>Phone: +27 72 915 2927</p>
-      </div>
-      <button class="back-to-top">Back to Top</button>
-    </footer>
-  </body>
-</html>
+        <div class="row">
+          <div class="col-sm-4">
+            <h3>Skills and Competencies</h3>
+            <ul>
+              <li>Python</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>SQL</li>
+              <li>Django</li>
+            </ul>
+          </div>
+          <div class="col-sm-8">
+            <h3>Work Experience</h3>
+            <ul>
+              <li>
+                <h4>Compliance Manager</h4>
+                <h5>Investment Fund Africa</h5>
+              </li>
+              <li>
+                <h4>Operating Officer</h4>
+                <h5>Nedebe Group</h5>
+              </li>
+              <li>
+                <h4>Manager</h4>
+                <h5>Intshona FMCG</h5>
+              </li>
+              <li>
+                <h4>Junior Manager</h4>
+                <h5>Spur San Francisco</h5>
+              </li>
+              <li>
+                <h4>Manager</h4>
+                <h5>Paarl Action Sports</h5>
+              </li>
+              <li>
+                <h4>Audit Clerk</h4>
+                <h5>Privatactus Inc</h5>
+              </li>
+            </ul>
+          </section>
+          <section>
+            <h3>Education</h3>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <h4>Tertiary</h4>
+                  <h4>HyperionDev</h4>
+                  <h5>Software Engineer bootcamp</h5>
+                  <h5>Data Base Skills</h5>
+                  <h4>University of Michigan</h4>
+                  <h5>Python Specialization</h5>
+                  <h5>Django Specialization</h5>
+                  <h4>IBD - London</h4>
+                  <h5>Foundations of Distilling</h5>
+                  <h5>General Certificate in Distilling</h5>
+                </div>
+                <div class="col-md-6">
+                  <h4>Secondary</h4>
+                  <h4>Somerset West Private School</h4>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+        <footer>
+          <div class="contact">
+            <h4>Contact Me</h4>
+            <p>Email: keenandup87@gmail.com</p>
+            <p>Phone: +27 72 915 2927</p>
+          </div>
+          <button class="back-to-top">Back to Top</button>
+        </footer>
