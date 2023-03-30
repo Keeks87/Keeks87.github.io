@@ -4,7 +4,7 @@ body {
   font-size: 1rem;
   line-height: 1.7;
   color: #333;
-  background-color: #e61515;
+  background-color: #ffffff;
 }
 
 a {
@@ -73,7 +73,7 @@ h6 {
 
 .masthead h1,
 .masthead h2 {
-  color: #fff;
+  color: #000000;
 }
 
 .masthead h2 {
@@ -86,7 +86,7 @@ h6 {
   bottom: 2rem;
   left: 50%;
   margin-left: -1rem;
-  border: solid #fff;
+  border: solid #000000;
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 10px;
@@ -100,7 +100,7 @@ h6 {
 }
 
 .about-section h2 {
-  color: #ca0c0c;
+  color: #000000;
 }
 
 .about-section h4 {
