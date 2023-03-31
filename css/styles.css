@@ -1,72 +1,96 @@
-/* Reset CSS */
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
-
-/* General Styles */
-body {
-	font-family: Arial, sans-serif;
-	line-height: 1.5;
-	background-color: #f9f9f9;
-}
-.container {
-	max-width: 960px;
-	margin: 0 auto;
-	padding: 0 20px;
-}
-
-/* Header Styles */
-header {
-	background-color: #333;
-	color: #fff;
-	padding: 20px;
-}
-header h1 {
-	font-size: 36px;
-	margin-bottom: 20px;
-}
-nav ul {
-	list-style: none;
-	display: flex;
-}
-nav li {
-	margin-right: 20px;
-}
-nav a {
-	color: #fff;
-	text-decoration: none;
-	font-size: 18px;
-}
-
-/* Main Content Styles */
-.main {
-	padding: 20px;
-}
-.main h2 {
-	font-size: 24px;
-	margin-bottom: 20px;
-}
-
-/* Sidebar Styles */
-.sidebar {
-	background-color: #ccc;
-	color: #333;
-	padding: 20px;
-}
-.sidebar h2 {
-	font-size: 24px;
-	margin-bottom: 20px;
-}
-
-/* Footer Styles */
-footer {
-	background-color: #333;
-	color: #fff;
-	padding: 20px;
-	text-align: center;
-}
-footer p {
-	font-size: 14px;
-}
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Arial";
+    font-weight: bold;
+  }
+  .grid-container{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 80px 80px 300px 100px 80px 150px;
+    box-sizing: border-box;
+    background-color: #EAF2E3;
+  }
+  
+  .grid-container > div{
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .item1{
+    background-color: #F2A05D;
+    grid-column: 1/4;
+    grid-row: 1/2;
+  }
+  
+  .item2{
+    background-color: #F2E863;
+    grid-column: 1/2;
+    grid-row: 2/4;
+  }
+  
+  .item3{
+    background-color: #61E8E1;
+    grid-column: 2/3;
+    grid-row: 2/6;
+  }
+  
+  .item4{
+    background-color: #F25757;
+    grid-column: 3/4;
+    grid-row: 2/6;
+  }
+  
+  .item5{
+    background-color: #F25757;
+    grid-column: 1/2;
+    grid-row: 4/6;
+  }
+  
+  .item6{
+    background-color: #F2A05D;
+    grid-column: 1/4;
+    grid-row: 6/7;
+  }
+  
+  @media screen and (max-width: 850px) {
+    .item2{
+      grid-column: 1/4;
+      grid-row: 2/3;
+    }
+  
+    .item3{
+      grid-column: 1/3;
+      grid-row: 3/5;
+    }
+  
+    .item4{
+      grid-column: 3/4;
+      grid-row: 3/6;
+    }
+  
+    .item5{
+      grid-column: 1/3;
+      grid-row: 5/6;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+  
+    .item3{
+      grid-column: 1/4;
+      grid-row: 3/4;
+    }
+  
+    .item4{
+      grid-column: 1/4;
+      grid-row: 4/5;
+    }
+  
+    .item5{
+      grid-column: 1/4;
+      grid-row: 5/6;
+    }
+  }
