@@ -2,26 +2,38 @@
 <html>
 <head>
 	<title>Example Website</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<nav>
-		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Services</a></li>
-			<li><a href="#">Contact</a></li>
-		</ul>
-	</nav>
-	<div class="main-section">
-		<h1>Welcome to Example Website!</h1>
-		<p>This is the main section of the website.</p>
-	</div>
-	<div class="body-section">
-		<p>This is the body section of the website.</p>
-	</div>
-	<div class="footer-section">
-		<p>&copy; 2023 Example Website</p>
-	</div>
+	<header>
+		<div class="container">
+			<h1>Welcome to Example Website!</h1>
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section class="main">
+		<div class="container">
+			<h2>Main Content</h2>
+			<p>This is the main content of the website.</p>
+		</div>
+	</section>
+	<section class="sidebar">
+		<div class="container">
+			<h2>Sidebar Content</h2>
+			<p>This is the sidebar content of the website.</p>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<p>&copy; 2023 Example Website</p>
+		</div>
+	</footer>
 </body>
 </html>

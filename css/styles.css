@@ -1,51 +1,72 @@
-body {
+/* Reset CSS */
+* {
+	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	font-family: Arial, sans-serif;
 }
-nav {
+
+/* General Styles */
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1.5;
+	background-color: #f9f9f9;
+}
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+/* Header Styles */
+header {
 	background-color: #333;
 	color: #fff;
-	height: 100%;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 200px;
 	padding: 20px;
-	box-sizing: border-box;
-	display: flex; /* new */
-	flex-direction: column; /* new */
+}
+header h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
 }
 nav ul {
 	list-style: none;
-	padding: 0;
-	margin: 0;
-	flex-grow: 1; /* new */
+	display: flex;
 }
 nav li {
-	margin-bottom: 10px;
+	margin-right: 20px;
 }
 nav a {
 	color: #fff;
 	text-decoration: none;
-	display: block;
-	padding: 5px;
-	border-radius: 5px;
+	font-size: 18px;
 }
-nav a:hover {
-	background-color: #555;
-}
-.main-section {
-	margin-left: 220px;
+
+/* Main Content Styles */
+.main {
 	padding: 20px;
 }
-.body-section {
-	margin-left: 220px; /* updated */
+.main h2 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+/* Sidebar Styles */
+.sidebar {
+	background-color: #ccc;
+	color: #333;
 	padding: 20px;
 }
-.footer-section {
+.sidebar h2 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
 	background-color: #333;
 	color: #fff;
 	padding: 20px;
 	text-align: center;
+}
+footer p {
+	font-size: 14px;
 }
