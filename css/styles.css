@@ -64,20 +64,21 @@ h6 {
 .masthead {
   height: 100vh;
   min-height: 500px;
-  background-image: url("assets/img/misty_peaks.jpg");
-  background-repeat: no-repeat;
+  background: linear-gradient(180deg, #F5F7FA 0%, rgba(245, 247, 250, 0) 100%), url("assets/img/misty_peaks.jpg") no-repeat center center fixed;
   background-size: cover;
-  background-position: center;
   position: relative;
 }
 
 .masthead h1,
 .masthead h2 {
   color: #000000;
+  font-weight: bold;
+  font-size: 4rem;
+  text-align: center;
 }
 
 .masthead h2 {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: 300;
 }
 
@@ -101,6 +102,8 @@ h6 {
 
 .about-section h2 {
   color: #000000;
+  font-weight: bold;
+  font-size: 3rem;
 }
 
 .about-section h4 {
@@ -110,7 +113,7 @@ h6 {
 }
 
 .about-section p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-bottom: 2rem;
 }
 
@@ -120,13 +123,13 @@ h6 {
 }
 
 .projects-section h4 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 600;
   margin-bottom: 1rem;
 }
 
 .projects-section h3 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 600;
   margin-top: 2rem;
   margin-bottom: 0.5rem;
@@ -134,12 +137,13 @@ h6 {
 
 .projects-section p {
   margin-bottom: 2rem;
+  font-size: 1.2rem;
 }
 
 .projects-section img {
   max-width: 100%;
   height: auto;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .featured-text {
