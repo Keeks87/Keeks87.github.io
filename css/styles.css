@@ -42,6 +42,10 @@ h6 {
   height: 5rem;
 }
 
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
 .nav-link {
   font-size: 0.9rem;
   font-weight: 600;
