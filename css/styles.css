@@ -3,7 +3,7 @@ body {
   font-family: "Nunito", sans-serif;
   font-size: 1rem;
   line-height: 1.7;
-  color: #333;
+  color: #FA553F;
   background-color: #ffffff;
 }
 
@@ -33,7 +33,7 @@ h6 {
 
 /* Navigation styles */
 .navbar {
-  background-color: #00376e;
+  background-color: #251E21;
 }
 
 .nav-link {
