@@ -35,17 +35,23 @@ h6 {
 .navbar {
   background-color: #251E21;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start; /* Align items to the left */
+  flex-direction: row; /* Change flex-direction to row */
+  align-items: center;
+  justify-content: space-between; /* Add justify-content to space between items */
+  padding: 1rem;
+  height: 5rem;
 }
 
 .nav-link {
   font-size: 0.9rem;
   font-weight: 600;
   text-transform: uppercase;
-  padding: 0.5rem 1rem;
   color: #FA553F;
-  text-align: left; /* Align text to the left */
+  margin-right: 1.5rem; /* Add margin to the right */
+}
+
+.nav-link:last-child {
+  margin-right: 0; /* Remove margin from the last child */
 }
 
 .nav-link:hover {
