@@ -34,6 +34,9 @@ h6 {
 /* Navigation styles */
 .navbar {
   background-color: #251E21;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
 }
 
 .nav-link {
@@ -41,7 +44,8 @@ h6 {
   font-weight: 600;
   text-transform: uppercase;
   padding: 0.5rem 1rem;
-  color: #333;
+  color: #FA553F;
+  text-align: left; /* Align text to the left */
 }
 
 .nav-link:hover {
@@ -150,3 +154,4 @@ h6 {
   padding: 3rem;
  
 }
+
